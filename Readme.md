@@ -20,7 +20,15 @@ mysql> CREATE TABLE tableone(
 
 mysql> DESC tableone;
 
+mysql> SELECT * FROM tableone;
+
 mysql> INSERT INTO tableone(Name,Address) VALUE('jino','orikottai');
+
+mysql> SELECT Address FROM tableone;
+
+mysql> SELECT Name FROM tableone;
+
+mysql> UPDATE tableone SET Name='ashli' WHERE Address='orikottai';
 
 
 
