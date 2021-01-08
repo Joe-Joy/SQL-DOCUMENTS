@@ -4,6 +4,8 @@ sudo mysql -u root -p.
 
 mysql> SHOW DATABSES
 
-mysql>CREATE DATABASE file1
+mysql> CREATE DATABASE file1
+
+mysql> SHOW DATABASES
 
 
