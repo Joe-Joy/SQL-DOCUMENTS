@@ -30,6 +30,6 @@ mysql> SELECT Name FROM tableone;
 
 mysql> UPDATE tableone SET Name='ashli' WHERE Address='orikottai';
 
-mysql> select * from tableone WHERE Address LIKE '________i';
+mysql> SELECT * FROM tableone WHERE Address LIKE '________i';
 
-mysql> select * from tableone ORDER BY Address;
+mysql> SELECT * FROM tableone ORDER BY Address;
