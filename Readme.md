@@ -33,3 +33,10 @@ mysql> UPDATE tableone SET Name='ashli' WHERE Address='orikottai';
 mysql> SELECT * FROM tableone WHERE Address LIKE '________i';
 
 mysql> SELECT * FROM tableone ORDER BY Address;
+
+mysql> SELECT * FROM tableone LIMIT 1 OFFSET 7;
+
+mysql> SELECT * FROM tableone WHERE Name='ashli' OR Address='orikottai';
+
+mysql> SELECT Address FROM tableone where Name='ashli' OR Address='orikottai';
+
