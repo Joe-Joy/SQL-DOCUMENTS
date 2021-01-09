@@ -77,4 +77,15 @@ mysql>  UPDATE tabletwo SET email='joeashlinivetha@gmail.com' WHERE id=1;
 
 mysql> SELECT * FROM tabletwo WHERE name **IN** ('Vikki', 'Viki', 'Virgie');
 
+mysql> SELECT * FROM tabletwo WHERE name NOT LIKE '%vikki%';
+
+mysql> SELECT * FROM tabletwo WHERE name IN ('%vikki%');
+
+mysql> SELECT * FROM tabletwo WHERE name='Viki' AND name='OR';
+
+
+
+
+
+
 
