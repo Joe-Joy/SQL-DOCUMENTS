@@ -49,15 +49,15 @@ mysql> SELECT Address FROM tableone where Name='ashli' OR Address='orikottai';
 
 **SQL DOCUMENTATION:**
 
-sudo mysql -u root -p.
+**sudo mysql -u root -p.**
 
-mysql> SHOW DATABSES;
+mysql> **SHOW DATABSES**;
 
-mysql> CREATE DATABASE file2;
+mysql> **CREATE DATABASE file2**;
 
-mysql> SHOW DATABSES;
+mysql> **SHOW DATABSES**;
 
-mysql> USE file2;
+mysql> **USE** file2;
 
 mysql> **SOURCE** /home/sepoy/Documents/tabletwo.sql; (using mockaaroo tables)
 
