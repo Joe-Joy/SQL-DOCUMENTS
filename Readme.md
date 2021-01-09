@@ -59,29 +59,27 @@ mysql> SHOW DATABSES;
 
 mysql> USE file2;
 
-mysql> SOURCE /home/sepoy/Documents/tabletwo.sql; (using mockaaroo tables)
+mysql> **SOURCE** /home/sepoy/Documents/tabletwo.sql; (using mockaaroo tables)
 
-mysql> DESC tabletwo;
+mysql> **DESC** tabletwo;
 
-mysql> SELECT * FROM tabletwo;
+mysql> **SELECT * FROM** tabletwo;
 
-mysql> ALTER TABLE tabletwo ADD Address VARCHAR(100);
+mysql> **ALTER TABLE** tabletwo **ADD** Address VARCHAR(100);
 
-mysql> ALTER TABLE tabletwo DROP Address;
+mysql> **ALTER TABLE** tabletwo **DROP** Address;
 
-mysql> SELECT * FROM tabletwo;
+mysql>  **UPDATE** tabletwo **SET** email='joeashlinivetha@gmail.com' WHERE id=1;
 
-mysql>  UPDATE tabletwo SET email='joeashlinivetha@gmail.com' WHERE id=1;
-
- mysql> SELECT * FROM tabletwo WHERE gender LIKE '%female%';
+ mysql> SELECT * FROM tabletwo WHERE gender **LIKE** '%female%';
 
 mysql> SELECT * FROM tabletwo WHERE name **IN** ('Vikki', 'Viki', 'Virgie');
 
-mysql> SELECT * FROM tabletwo WHERE name NOT LIKE '%vikki%';
+mysql> SELECT * FROM tabletwo WHERE name **NOT LIKE** '%vikki%';
 
-mysql> SELECT * FROM tabletwo WHERE name IN ('%vikki%');
+mysql> SELECT * FROM tabletwo WHERE name **IN** ('%vikki%');
 
-mysql> SELECT * FROM tabletwo WHERE name='Viki' AND name='OR';
+mysql> SELECT * FROM tabletwo WHERE name='Viki' **AND** name='OR';
 
 
 
