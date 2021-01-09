@@ -73,3 +73,8 @@ mysql> SELECT * FROM tabletwo;
 
 mysql>  UPDATE tabletwo SET email='joeashlinivetha@gmail.com' WHERE id=1;
 
+ mysql> SELECT * FROM tabletwo WHERE gender LIKE '%female%';
+
+mysql> SELECT * FROM tabletwo WHERE name **IN** ('Vikki', 'Viki', 'Virgie');
+
+
